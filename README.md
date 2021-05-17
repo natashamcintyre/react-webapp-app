@@ -69,3 +69,15 @@ module.exports = {
 **Enable live changes**
 
 - `yarn add webpack-dev-server` (_page updates as you make changes, no need to restart server_)
+
+## To run
+
+**To build and run:**
+
+`yarn run webpack --config webpack.config.js`
+
+Don't forget to add `dist` to the `.gitignore` file
+
+**To run with the dev-server:**
+
+`yarn run webpack serve --config webpack.config.js`
